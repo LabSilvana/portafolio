@@ -42,7 +42,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif; color: #D99F59;}
 
 <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
 <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2;" id="mySidebar">
-  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright w3-hover-brown" style="padding:0 20px; width: 20%;">
     <i class="fa fa-remove"></i>
   </a>
   <div class="w3-bar-block w3-center">
@@ -62,7 +62,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif; color: #D99F59;}
   <!-- Header -->
   <header class="w3-container w3-center" id="home">
     <h1 class="w3-jumbo"><b>Daniela Silvana Pérez González</b></h1>
-    <p>Front End Developer.</p>
+    <p style="font-size: 30px;">Front End Developer.</p>
   </header>
 
   <!-- Portfolio Section -->
@@ -71,7 +71,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif; color: #D99F59;}
     <hr class="w3-opacity">
 
     <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px; text-align: center; display: flex; justify-content: space-around;">
+    <div class="w3-row-padding" style="margin:0 -16px; text-align: center; display: flex; justify-content: center; flex-wrap: wrap;">
       <div class="card">
         <div class="card-image">
           <a href="https://github.com/LabSilvana/GDL003-lab-notes"><img src="https://st3.depositphotos.com/1007566/12596/v/950/depositphotos_125969206-stock-illustration-notepad-and-color-pencil-kawaii.jpg" alt="Avatar" style="width:100%"></a>
@@ -90,6 +90,24 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif; color: #D99F59;}
           <p>Proyecto realizado con Angular y Mongodb</p> 
         </div>
       </div>
+      <div class="card">
+        <div class="card-image">
+          <a href="https://labsilvana.github.io/Pokedex/"><img src="https://pa1.narvii.com/5744/4e0161f94017b5ea55795e72eb1031fa017f2854_hq.gif" alt="Avatar" style="width:100%"></a>
+        </div>
+        <div class="container">
+          <h4><b>Pokedex</b></h4> 
+          <p>Proyecto realizado con tutorial de JavaScript </p> 
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <a href="https://github.com/LabSilvana/Pokedex"><img src="http://hellomoto.com.co/wp/wp-content/uploads/2019/06/portada-app-juegos.png" alt="Avatar" style="width:100%"></a>
+        </div>
+        <div class="container">
+          <h4><b>My Team</b></h4> 
+          <p>Proyecto realizado con TypeScript y Angular </p> 
+        </div>
+      </div>
     <!-- End photo grid -->
     </div>
   <!-- End Portfolio Section -->
@@ -99,22 +117,26 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif; color: #D99F59;}
   <div class="w3-content w3-justify w3-text-brown w3-padding-32" id="about">
     <h2>About</h2>
     <hr class="w3-opacity">
-    <p>Front End Developer | Ing. Bioquímica, siempre me he identificado como una persona asertiva, autodidacta y muy tranquila que disfruta lo que hace y está en constante crecimiento. 
-      Me gusta ir al cine, y estar cerca de las personas que quiero.
+    <p style="font-size: 19px;">Front End Developer | Ing. Bioquímica, siempre me he identificado como una persona asertiva, autodidacta y muy tranquila 
+       que disfruta lo que hace y está en constante crecimiento. Me gusta viajar, conocer nuevos lugares, ir al cine, y estar cerca
+       de las personas que quiero.
     </p>
-    <h3 class="w3-padding-16">My Skills</h3>
-    <p class="w3-wide">JavaScript</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    <div class="w3-content w3-justify w3-text-brown w3-padding-32" id="My skills">
+    <h3>My Skills</h3>
+    <hr class="w3-opacity">
+    <div class="logos" style="display: -webkit-box;">
+    <div class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"></div>
+    <div class="logo"><img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"></div>
+    <div class="logo"><img src="https://i0.pngocean.com/files/893/87/686/cascading-style-sheets-logo-clip-art-css3-html-css3-logo.jpg"></div>
+    <div class="logo"><img src="https://cdn.worldvectorlogo.com/logos/react.svg"></div>
+    <div class="logo"><img src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png"></div>
+    <div class="logo"><img src="http://pluspng.com/img-png/nodejs-logo-png-nice-images-collection-node-js-desktop-wallpapers-370.png"></div>
+    <div class="logo"><img src="https://img.favpng.com/12/9/4/mongodb-logo-database-nosql-postgresql-png-favpng-mcEPKatsp6vtFjnFRhApvc5Z5.jpg"></div>
+    <div class="logo"><img src="https://angular.io/assets/images/logos/angular/angular.png"></div>
+    <div class="logo"><img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png"></div>  
     </div>
-    <p class="w3-wide">HTML5</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:75%">75%</div>
-    </div>
-    <p class="w3-wide">CSS</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:70%">70%</div>
-    </div><br>
+  </div>
+    <br>
 
   <!-- End About Section -->
   </div>
